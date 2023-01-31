@@ -42,7 +42,7 @@ function App() {
         </div>
         <h3>{id}. {name}</h3>
         <div className="textBox">
-          <p>{description}</p>
+          <p className="text-box">{description}</p>
         </div>
       </div>
     </div>
