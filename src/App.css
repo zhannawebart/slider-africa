@@ -31,3 +31,13 @@ p, h2, h1, h3 {
   color: rgb(6, 95, 155);
 }
 
+@media all and (max-width: 500px) {
+  img {
+    width: 75%;
+  }
+
+  .text-box {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
